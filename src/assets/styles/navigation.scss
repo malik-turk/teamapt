@@ -1,0 +1,26 @@
+.navigation {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.calendar-day {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.calendar-day__current-day {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    flex-basis: 47px;
+    margin-left: 10px;
+    color: #FFF;
+
+    span {
+        font-size: 14px;
+        line-height: 15px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}

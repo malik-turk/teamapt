@@ -1,0 +1,49 @@
+// Animations
+.slide-in-bottom {
+    animation: slide-in-bottom 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.bounce {
+    animation: bounce 4s infinite linear;
+}
+
+// Delays
+.delay-500ms {
+    animation-delay: 500ms;
+}
+
+.delay-600ms {
+    animation-delay: 600ms;
+}
+
+// Durations
+.duration-700ms {
+    animation-duration: 700ms;
+}
+
+// Keyframes
+@keyframes slide-in-bottom {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
